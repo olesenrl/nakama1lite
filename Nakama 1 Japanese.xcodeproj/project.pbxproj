@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB2BC2B152C006F000472EC /* 60-x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB2BC29152C006F000472EC /* 60-x.png */; };
+		3AB2BC2C152C006F000472EC /* 60-x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB2BC2A152C006F000472EC /* 60-x@2x.png */; };
+		3AB2BC2F152C0093000472EC /* 60-x-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB2BC2D152C0093000472EC /* 60-x-gray.png */; };
+		3AB2BC30152C0093000472EC /* 60-x-gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB2BC2E152C0093000472EC /* 60-x-gray@2x.png */; };
+		3AB2BC33152C058C000472EC /* NakamaSupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB2BC32152C058C000472EC /* NakamaSupportViewController.m */; };
+		3AB2BC35152C061F000472EC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB2BC34152C061F000472EC /* MessageUI.framework */; };
+		3ACE2CE2152E1E95006D1E7F /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE2CE1152E1E95006D1E7F /* appicon.png */; };
+		3ACE2CE4152E1E97006D1E7F /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE2CE3152E1E97006D1E7F /* appicon@2x.png */; };
+		3ACE2CE6152E1E9A006D1E7F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE2CE5152E1E9A006D1E7F /* Default.png */; };
+		3ACE2CE8152E1E9C006D1E7F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ACE2CE7152E1E9C006D1E7F /* Default@2x.png */; };
 		3AE1E0FA151AC9B50075904F /* 20-gear-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1E0F8151AC9B50075904F /* 20-gear-2.png */; };
 		3AE1E0FB151AC9B50075904F /* 20-gear-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1E0F9151AC9B50075904F /* 20-gear-2@2x.png */; };
 		3AE1E0FF151ACA410075904F /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1E0FD151ACA410075904F /* 44-shoebox.png */; };
@@ -17,6 +27,7 @@
 		3AE1E108151ACAAF0075904F /* 259-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1E106151ACAAF0075904F /* 259-list@2x.png */; };
 		3AE1E10A151ACCDA0075904F /* Nakama1Book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1E109151ACCDA0075904F /* Nakama1Book.jpg */; };
 		3AE1E10C151AD0A90075904F /* Nakama1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1E10B151AD0A90075904F /* Nakama1.plist */; };
+		3AE1E118151B69E00075904F /* NakamaVocabListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1E117151B69DF0075904F /* NakamaVocabListController.m */; };
 		3AE37003151AC5BD0044B2B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37002151AC5BD0044B2B0 /* UIKit.framework */; };
 		3AE37005151AC5BD0044B2B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37004151AC5BD0044B2B0 /* Foundation.framework */; };
 		3AE37007151AC5BD0044B2B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE37006151AC5BD0044B2B0 /* CoreGraphics.framework */; };
@@ -30,9 +41,21 @@
 		3AE37020151AC5BD0044B2B0 /* NakamaSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3701F151AC5BD0044B2B0 /* NakamaSecondViewController.m */; };
 		3AE37022151AC5BD0044B2B0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE37021151AC5BD0044B2B0 /* second.png */; };
 		3AE37024151AC5BD0044B2B0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE37023151AC5BD0044B2B0 /* second@2x.png */; };
+		3AE3C6C8152BD3EB00960AE3 /* NakamaReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3C6C7152BD3EB00960AE3 /* NakamaReviewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AB2BC29152C006F000472EC /* 60-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-x.png"; sourceTree = "<group>"; };
+		3AB2BC2A152C006F000472EC /* 60-x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-x@2x.png"; sourceTree = "<group>"; };
+		3AB2BC2D152C0093000472EC /* 60-x-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-x-gray.png"; sourceTree = "<group>"; };
+		3AB2BC2E152C0093000472EC /* 60-x-gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-x-gray@2x.png"; sourceTree = "<group>"; };
+		3AB2BC31152C058C000472EC /* NakamaSupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakamaSupportViewController.h; sourceTree = "<group>"; };
+		3AB2BC32152C058C000472EC /* NakamaSupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakamaSupportViewController.m; sourceTree = "<group>"; };
+		3AB2BC34152C061F000472EC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3ACE2CE1152E1E95006D1E7F /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = ../appicon.png; sourceTree = "<group>"; };
+		3ACE2CE3152E1E97006D1E7F /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appicon@2x.png"; path = "../appicon@2x.png"; sourceTree = "<group>"; };
+		3ACE2CE5152E1E9A006D1E7F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		3ACE2CE7152E1E9C006D1E7F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		3AE1E0F8151AC9B50075904F /* 20-gear-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear-2.png"; sourceTree = "<group>"; };
 		3AE1E0F9151AC9B50075904F /* 20-gear-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear-2@2x.png"; sourceTree = "<group>"; };
 		3AE1E0FD151ACA410075904F /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
@@ -43,6 +66,8 @@
 		3AE1E106151ACAAF0075904F /* 259-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "259-list@2x.png"; sourceTree = "<group>"; };
 		3AE1E109151ACCDA0075904F /* Nakama1Book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nakama1Book.jpg; sourceTree = "<group>"; };
 		3AE1E10B151AD0A90075904F /* Nakama1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Nakama1.plist; sourceTree = "<group>"; };
+		3AE1E116151B69DF0075904F /* NakamaVocabListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakamaVocabListController.h; sourceTree = "<group>"; };
+		3AE1E117151B69DF0075904F /* NakamaVocabListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakamaVocabListController.m; sourceTree = "<group>"; };
 		3AE36FFE151AC5BD0044B2B0 /* Nakama 1 Japanese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nakama 1 Japanese.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE37002151AC5BD0044B2B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3AE37004151AC5BD0044B2B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +87,8 @@
 		3AE3701F151AC5BD0044B2B0 /* NakamaSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NakamaSecondViewController.m; sourceTree = "<group>"; };
 		3AE37021151AC5BD0044B2B0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		3AE37023151AC5BD0044B2B0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3AE3C6C6152BD3EB00960AE3 /* NakamaReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NakamaReviewViewController.h; sourceTree = "<group>"; };
+		3AE3C6C7152BD3EB00960AE3 /* NakamaReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NakamaReviewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB2BC35152C061F000472EC /* MessageUI.framework in Frameworks */,
 				3AE37003151AC5BD0044B2B0 /* UIKit.framework in Frameworks */,
 				3AE37005151AC5BD0044B2B0 /* Foundation.framework in Frameworks */,
 				3AE37007151AC5BD0044B2B0 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +109,7 @@
 		3AE36FF3151AC5BD0044B2B0 = {
 			isa = PBXGroup;
 			children = (
+				3AB2BC34152C061F000472EC /* MessageUI.framework */,
 				3AE37008151AC5BD0044B2B0 /* Nakama 1 Japanese */,
 				3AE37001151AC5BD0044B2B0 /* Frameworks */,
 				3AE36FFF151AC5BD0044B2B0 /* Products */,
@@ -108,15 +137,29 @@
 		3AE37008151AC5BD0044B2B0 /* Nakama 1 Japanese */ = {
 			isa = PBXGroup;
 			children = (
+				3ACE2CE7152E1E9C006D1E7F /* Default@2x.png */,
+				3ACE2CE5152E1E9A006D1E7F /* Default.png */,
+				3ACE2CE3152E1E97006D1E7F /* appicon@2x.png */,
+				3ACE2CE1152E1E95006D1E7F /* appicon.png */,
+				3AB2BC29152C006F000472EC /* 60-x.png */,
+				3AB2BC2A152C006F000472EC /* 60-x@2x.png */,
+				3AB2BC2D152C0093000472EC /* 60-x-gray.png */,
+				3AB2BC2E152C0093000472EC /* 60-x-gray@2x.png */,
 				3AE37011151AC5BD0044B2B0 /* NakamaAppDelegate.h */,
 				3AE37012151AC5BD0044B2B0 /* NakamaAppDelegate.m */,
+				3AE3C6C6152BD3EB00960AE3 /* NakamaReviewViewController.h */,
+				3AE3C6C7152BD3EB00960AE3 /* NakamaReviewViewController.m */,
 				3AE37014151AC5BD0044B2B0 /* MainStoryboard.storyboard */,
+				3AB2BC31152C058C000472EC /* NakamaSupportViewController.h */,
+				3AB2BC32152C058C000472EC /* NakamaSupportViewController.m */,
 				3AE37017151AC5BD0044B2B0 /* NakamaFirstViewController.h */,
 				3AE37018151AC5BD0044B2B0 /* NakamaFirstViewController.m */,
 				3AE3701A151AC5BD0044B2B0 /* first.png */,
 				3AE3701C151AC5BD0044B2B0 /* first@2x.png */,
 				3AE3701E151AC5BD0044B2B0 /* NakamaSecondViewController.h */,
 				3AE3701F151AC5BD0044B2B0 /* NakamaSecondViewController.m */,
+				3AE1E116151B69DF0075904F /* NakamaVocabListController.h */,
+				3AE1E117151B69DF0075904F /* NakamaVocabListController.m */,
 				3AE37021151AC5BD0044B2B0 /* second.png */,
 				3AE37023151AC5BD0044B2B0 /* second@2x.png */,
 				3AE1E0F8151AC9B50075904F /* 20-gear-2.png */,
@@ -212,6 +255,14 @@
 				3AE1E108151ACAAF0075904F /* 259-list@2x.png in Resources */,
 				3AE1E10A151ACCDA0075904F /* Nakama1Book.jpg in Resources */,
 				3AE1E10C151AD0A90075904F /* Nakama1.plist in Resources */,
+				3AB2BC2B152C006F000472EC /* 60-x.png in Resources */,
+				3AB2BC2C152C006F000472EC /* 60-x@2x.png in Resources */,
+				3AB2BC2F152C0093000472EC /* 60-x-gray.png in Resources */,
+				3AB2BC30152C0093000472EC /* 60-x-gray@2x.png in Resources */,
+				3ACE2CE2152E1E95006D1E7F /* appicon.png in Resources */,
+				3ACE2CE4152E1E97006D1E7F /* appicon@2x.png in Resources */,
+				3ACE2CE6152E1E9A006D1E7F /* Default.png in Resources */,
+				3ACE2CE8152E1E9C006D1E7F /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +277,9 @@
 				3AE37013151AC5BD0044B2B0 /* NakamaAppDelegate.m in Sources */,
 				3AE37019151AC5BD0044B2B0 /* NakamaFirstViewController.m in Sources */,
 				3AE37020151AC5BD0044B2B0 /* NakamaSecondViewController.m in Sources */,
+				3AE1E118151B69E00075904F /* NakamaVocabListController.m in Sources */,
+				3AE3C6C8152BD3EB00960AE3 /* NakamaReviewViewController.m in Sources */,
+				3AB2BC33152C058C000472EC /* NakamaSupportViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +311,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ming Loong Chng";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -272,6 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "8CC5834E-EB14-4205-A4A8-5BDDBA24670E";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -282,6 +338,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ming Loong Chng";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -291,6 +348,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "8CC5834E-EB14-4205-A4A8-5BDDBA24670E";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -299,10 +357,14 @@
 		3AE37028151AC5BD0044B2B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ming Loong Chng";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nakama 1 Japanese/Nakama 1 Japanese-Prefix.pch";
 				INFOPLIST_FILE = "Nakama 1 Japanese/Nakama 1 Japanese-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Nakama 1 Japanese";
+				PROVISIONING_PROFILE = "8CC5834E-EB14-4205-A4A8-5BDDBA24670E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -310,10 +372,14 @@
 		3AE37029151AC5BD0044B2B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ming Loong Chng";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nakama 1 Japanese/Nakama 1 Japanese-Prefix.pch";
 				INFOPLIST_FILE = "Nakama 1 Japanese/Nakama 1 Japanese-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Nakama 1 Japanese";
+				PROVISIONING_PROFILE = "8CC5834E-EB14-4205-A4A8-5BDDBA24670E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
         <!--Nakama First View Controller - First-->
@@ -14,12 +13,214 @@
                     <view key="view" contentMode="scaleToFill" id="16">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" id="rAe-ao-zZy">
+                                <rect key="frame" x="0.0" y="49" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="pdy-Fk-vy4"/>
+                                    <outlet property="delegate" destination="2" id="Qod-OM-7cJ"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Select a chapter and tap review" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="W0n-tJ-kAB">
+                                <rect key="frame" x="20" y="20" width="241" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.96475821169999998" green="1" blue="0.80716811129999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cMQ-tw-tJB">
+                                <rect key="frame" x="0.0" y="302" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76277372259999998" green="0.91158188870000001" blue="0.8058280109" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                <state key="normal" title="Review・復習しましょう　　　">
+                                    <color key="titleColor" red="0.17270251859999999" green="0.2429055447" blue="0.29610515510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="f45-OM-1FS" kind="modal" identifier="reviewView" modalTransitionStyle="flipHorizontal" id="ets-5y-iVE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="＞" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Wdj-Ez-FQe">
+                                <rect key="frame" x="278" y="302" width="42" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
+                                <color key="textColor" red="0.65419708030000001" green="0.2711279653" blue="0.31680542880000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29803921570000003" green="0.27058823529999998" blue="0.2784313725" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Review" image="44-shoebox.png" id="7"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
+        </scene>
+        <!--Nakama Review View Controller-->
+        <scene sceneID="eGZ-8g-5vo">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zxw-BJ-0gH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="f45-OM-1FS" customClass="NakamaReviewViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oql-VF-bLL">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="rXu-wd-vbH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6hC-L3-3ZC">
+                                        <rect key="frame" x="53" y="413" width="214" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.76277372259999998" green="0.91158188870000001" blue="0.8058280109" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Japanese -> English">
+                                            <color key="titleColor" white="0.41631500910000002" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeLanguage:" destination="f45-OM-1FS" eventType="touchUpInside" id="jgz-Lc-WbA"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" id="MTX-O9-1gN">
+                                        <rect key="frame" x="20" y="20" width="280" height="393"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Single tap for definition " lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="14" id="jtv-Ni-8k8">
+                                                <rect key="frame" x="20" y="233" width="240" height="124"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <color key="textColor" red="0.3012089416" green="0.26784899639999998" blue="0.27480611310000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Swipe to begin      >" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" minimumFontSize="24" id="zoq-DD-KUr">
+                                                <rect key="frame" x="20" y="0.0" width="240" height="225"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="26"/>
+                                                <color key="textColor" red="0.65419708030000001" green="0.2711279653" blue="0.31680542880000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Swipe left and right to switch cards" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="iDi-1b-5b8">
+                                                <rect key="frame" x="20" y="132" width="221" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.41176470590000003" green="0.37254901959999998" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96475821169999998" green="1" blue="0.80716811129999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="04v-VP-SPI" appends="YES" id="qbw-IC-IDp"/>
+                                            <outletCollection property="gestureRecognizers" destination="PnK-CK-fvX" appends="YES" id="uDn-EH-I6Z"/>
+                                            <outletCollection property="gestureRecognizers" destination="Xd1-tf-NRd" appends="YES" id="4bP-Ww-Cgc"/>
+                                        </connections>
+                                    </view>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="i1G-oF-J6Q">
+                                        <rect key="frame" x="20" y="413" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.5545449361" green="0.81090328469999995" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                        <state key="normal" image="60-x.png">
+                                            <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected">
+                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="endReview:" destination="f45-OM-1FS" eventType="touchUpInside" id="pDz-mE-YRZ"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" id="JeP-1U-Kti">
+                                        <rect key="frame" x="265" y="413" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="Pl6-8v-0Z5">
+                                                <rect key="frame" x="8" y="8" width="18" height="19"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <state key="highlighted">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="showUsageInstructions:" destination="f45-OM-1FS" eventType="touchUpInside" id="G2i-Jr-8pi"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.76277372259999998" green="0.91158188870000001" blue="0.8058280109" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.098039224743843079" green="0.090196080505847931" blue="0.14117647707462311" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="drT-qM-5ph"/>
+                    <connections>
+                        <outlet property="backLabel" destination="jtv-Ni-8k8" id="eWb-hW-VgZ"/>
+                        <outlet property="changeLanguageButton" destination="6hC-L3-3ZC" id="JCy-Zq-p10"/>
+                        <outlet property="doubleTapRecognizer" destination="04v-VP-SPI" id="YSP-FL-dyX"/>
+                        <outlet property="frontLabel" destination="zoq-DD-KUr" id="IfI-4a-sze"/>
+                        <outlet property="swipeInstructionsButton" destination="Pl6-8v-0Z5" id="PAd-3v-QHX"/>
+                        <outlet property="swipeInstructionsLabel" destination="iDi-1b-5b8" id="tIV-ct-Jzd"/>
+                        <outlet property="swipeLeftRecognizer" destination="PnK-CK-fvX" id="Q94-S4-w5X"/>
+                        <outlet property="swipeRightRecognizer" destination="Xd1-tf-NRd" id="EJ0-Dr-wmB"/>
+                    </connections>
+                </viewController>
+                <tapGestureRecognizer id="04v-VP-SPI">
+                    <connections>
+                        <action selector="handleDoubleTapFrom:" destination="f45-OM-1FS" id="JUR-uZ-KQB"/>
+                        <outlet property="delegate" destination="f45-OM-1FS" id="NOC-fP-vGK"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="Xd1-tf-NRd">
+                    <connections>
+                        <action selector="handleSwipeRightFrom:" destination="f45-OM-1FS" id="k3q-At-MCV"/>
+                        <outlet property="delegate" destination="f45-OM-1FS" id="nS1-yD-BD7"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="PnK-CK-fvX">
+                    <connections>
+                        <action selector="handleSwipeLeftFrom:" destination="f45-OM-1FS" id="sce-NK-OC2"/>
+                        <outlet property="delegate" destination="f45-OM-1FS" id="9lf-IJ-T7w"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1090" y="-138"/>
+        </scene>
+        <!--Navigation Controller - Vocab List-->
+        <scene sceneID="MTm-DE-G62">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tY8-xe-Rdp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="Glg-m9-GnF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Vocab List" image="259-list.png" id="wa1-FH-Qgk"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="blackOpaque" id="ssN-sZ-4hR">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3" kind="relationship" relationship="rootViewController" id="jSI-Rf-Aw1"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="722" y="446"/>
         </scene>
         <!--Nakama Second View Controller - Second-->
         <scene sceneID="13">
@@ -27,48 +228,111 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
                 <viewController title="Second" id="3" customClass="NakamaSecondViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6pc-Bf-yH5">
-                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" id="sY5-y5-tCc">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ChapterItemCell" textLabel="Tdf-mR-HN2" style="IBUITableViewCellStyleDefault" id="sY5-y5-tCc">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tdf-mR-HN2">
+                                            <rect key="frame" x="10" y="0.0" width="280" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="1ln-3f-qXZ" kind="push" identifier="listVocabulary" id="5Vi-Xn-YHQ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3" id="rAI-dy-prs"/>
+                            <outlet property="delegate" destination="3" id="DML-pI-kTM"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Vocab List" image="259-list.png" id="6"/>
+                    <navigationItem key="navigationItem" title="Vocabulary List" id="3Pz-6n-ppK"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1159" y="446"/>
+        </scene>
+        <!--Nakama Vocab List Controller-->
+        <scene sceneID="hlP-q9-Eth">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ui-cV-FId" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="1ln-3f-qXZ" customClass="NakamaVocabListController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="5Im-3i-gdy">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VocabItemCell" textLabel="u7I-RL-2xr" detailTextLabel="hxM-XN-cyh" rowHeight="80" style="IBUITableViewCellStyleSubtitle" id="jdn-XB-vJD">
+                                <rect key="frame" x="0.0" y="22" width="320" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u7I-RL-2xr">
+                                            <rect key="frame" x="10" y="19" width="38" height="22"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hxM-XN-cyh">
+                                            <rect key="frame" x="10" y="41" width="51" height="19"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                             </tableViewCell>
                         </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1ln-3f-qXZ" id="hIE-ka-O7K"/>
+                            <outlet property="delegate" destination="1ln-3f-qXZ" id="gxf-Yj-aqv"/>
+                        </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Vocab List" image="259-list.png" id="6"/>
-                </viewController>
+                    <navigationItem key="navigationItem" id="s4X-Wk-7dr"/>
+                </tableViewController>
             </objects>
-            <point key="canvasLocation" x="653" y="498"/>
+            <point key="canvasLocation" x="1579" y="446"/>
         </scene>
-        <!--View Controller - Support-->
+        <!--Nakama Support View Controller - Support-->
         <scene sceneID="ZvO-Pn-g85">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wmj-2j-RLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="yUG-Tj-uGg" sceneMemberID="viewController">
+                <viewController id="yUG-Tj-uGg" customClass="NakamaSupportViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hIs-VR-CrU">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Nakama1Book.jpg" id="FNK-yi-taz">
-                                <rect key="frame" x="40" y="91" width="240" height="132"/>
+                                <rect key="frame" x="40" y="74" width="240" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nakama 1, 2nd Edition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="F59-ZU-8Tm">
-                                <rect key="frame" x="20" y="231" width="280" height="27"/>
+                                <rect key="frame" x="20" y="248" width="280" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hatasa, Hatasa, Makino" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Brv-9i-hqi">
-                                <rect key="frame" x="20" y="252" width="280" height="27"/>
+                                <rect key="frame" x="20" y="269" width="280" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -85,12 +349,14 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="displaySupportEmailDraft:" destination="yUG-Tj-uGg" eventType="touchUpInside" id="qtT-tu-DXk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Support" image="20-gear-2.png" id="f2B-16-DL1"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="653" y="1105"/>
@@ -100,6 +366,7 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
                 <tabBarController id="4" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
@@ -107,8 +374,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="Glg-m9-GnF" kind="relationship" relationship="viewControllers" id="i5c-Qo-XNK"/>
                         <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
-                        <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
                         <segue destination="yUG-Tj-uGg" kind="relationship" relationship="viewControllers" id="fdd-va-LvN"/>
                     </connections>
                 </tabBarController>
@@ -120,18 +387,11 @@
         <image name="20-gear-2.png" width="26" height="28"/>
         <image name="259-list.png" width="20" height="14"/>
         <image name="44-shoebox.png" width="24" height="22"/>
+        <image name="60-x.png" width="14" height="14"/>
         <image name="Nakama1Book.jpg" width="150" height="188"/>
     </resources>
-    <classes>
-        <class className="NakamaFirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NakamaFirstViewController.h"/>
-        </class>
-        <class className="NakamaSecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NakamaSecondViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
+        <nil key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>

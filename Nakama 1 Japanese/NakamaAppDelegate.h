@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NakamaAppDelegate : UIResponder <UIApplicationDelegate>
+@interface NakamaAppDelegate : UIResponder <UIApplicationDelegate> {
+    UIImageView *splashView;
+}
+
 
 @property (strong, nonatomic) UIWindow *window;
 

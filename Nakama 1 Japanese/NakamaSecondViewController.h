@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NakamaSecondViewController : UIViewController
+@interface NakamaSecondViewController : UITableViewController
 
+@property (strong, nonatomic) NSDictionary *vocabListAll; // make private?
+@property (strong, nonatomic) NSArray *chapterList;
 @end

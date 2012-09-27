@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NakamaFirstViewController : UIViewController
+@interface NakamaFirstViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+
+@property (nonatomic, strong) UIPickerView *chapterPicker;
+@property (nonatomic, strong) NSDictionary *vocabListAll;
+@property (nonatomic, strong) NSArray *chapterList;
+@property (nonatomic, strong) NSDictionary *selectedChapter;
 
 @end

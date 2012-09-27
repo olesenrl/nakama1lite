@@ -15,6 +15,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //!M: Longer splashView doesn't really work
+    splashView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    splashView.image = [UIImage imageNamed:@"Default.png"];
+    [self.window addSubview:splashView];
+    [self.window bringSubviewToFront:splashView];
+    
+    [application setStatusBarHidden:NO withAnimation:YES];
+    [application setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
+    
+    sleep(1);
+    [splashView removeFromSuperview];
+    
     return YES;
 }
 							

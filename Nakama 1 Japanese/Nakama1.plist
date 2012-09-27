@@ -2,7 +2,1818 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>New item</key>
-	<string></string>
+	<key>C01: The Japanese Sound System and Hiragana</key>
+	<dict>
+		<key>Noun</key>
+		<dict>
+			<key>せんせい</key>
+			<string>Teacher</string>
+		</dict>
+		<key>Suffixes</key>
+		<dict>
+			<key>〜せんせい</key>
+			<string>Professor ~</string>
+			<key>〜さん</key>
+			<string>Mr./Mrs./Miss/Ms. ~</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>（あのう、）すみません。</key>
+			<string>(Um,) Excuse me.</string>
+			<key>ありがとう　ございます。</key>
+			<string>Thank you.</string>
+			<key>あれは　にほんごで　なんと　いいますか。</key>
+			<string>How do you say that (over there) in Japanese?</string>
+			<key>いいえ、わかりません。</key>
+			<string>No, I don&apos;t understand (it).</string>
+			<key>いって　ください。</key>
+			<string>Please say it. / Repeat after me.</string>
+			<key>おおきい　こえで　おねがいします。</key>
+			<string>Please speak loudly. (student request)</string>
+			<key>おおきい　こえで　いってください。</key>
+			<string>Please speak loudly. (instructor request)</string>
+			<key>おはよう。</key>
+			<string>Good morning. / Hello. (casual)</string>
+			<key>おはよう　ございます。</key>
+			<string>Good morning. / Hello. (polite)</string>
+			<key>かいて　ください。</key>
+			<string>Please write.</string>
+			<key>きいて　ください。</key>
+			<string>Please listen.</string>
+			<key>これは　にほんごで　なんと　いいますか。</key>
+			<string>How do you say this in Japanese?</string>
+			<key>こんにちは。</key>
+			<string>Good afternoon. / Hello.</string>
+			<key>こんばんは。</key>
+			<string>Good evening. / Hello.</string>
+			<key>さようなら。／さよなら。</key>
+			<string>Good-bye.</string>
+			<key>しつれいします。</key>
+			<string>Good-bye. / Excuse me.</string>
+			<key>じゃあ、また。</key>
+			<string>See you later. (literally, Well then, again.)</string>
+			<key>すみません。</key>
+			<string>I am sorry. / Excuse me.</string>
+			<key>それは　にほんごで　なんと　いいますか。</key>
+			<string>How do you say that in Japanese?</string>
+			<key>〜って　なんですか。</key>
+			<string>What does ~ mean?</string>
+			<key>〜と　いいます。／〜って　いいます。</key>
+			<string>You say ~, you call it ~.</string>
+			<key>どういたしまして。</key>
+			<string>You are welcome.</string>
+			<key>はい、わかりました。</key>
+			<string>Yes, I understand it.</string>
+			<key>はじめまして。〜です。どうぞ　よろしく。</key>
+			<string>How do you do? I am ~. Pleased to meet you.</string>
+			<key>〜は　にほんごで　なんと　いいますか。</key>
+			<string>How do you say ~ in Japanese?</string>
+			<key>みて　ください。</key>
+			<string>Please look at it.</string>
+			<key>もう　いちど　いってください。</key>
+			<string>Please say it again. (instructor request)</string>
+			<key>もう　いちど　おねがいします。</key>
+			<string>Please say it again. (student request)</string>
+			<key>もう　すこし　ゆっくり　おねがいします。</key>
+			<string>Please say it slowly.</string>
+			<key>よんで　ください。</key>
+			<string>Please read.</string>
+			<key>わかりましたか。</key>
+			<string>Do you understand (it)?</string>
+		</dict>
+	</dict>
+	<key>C02: Greetings and Introductions</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>アジアけんきゅう　[アジア研究]</key>
+			<string>Asian studies</string>
+			<key>アメリカ</key>
+			<string>America, the United States</string>
+			<key>イギリス</key>
+			<string>England</string>
+			<key>いちねんせい　[一年生]</key>
+			<string>freshman, first-year student (The suffix せい may be dropped.)</string>
+			<key>いま　[今]</key>
+			<string>now</string>
+			<key>えいご　[英語]</key>
+			<string>English</string>
+			<key>オーストラリア</key>
+			<string>Australia</string>
+			<key>がくせい　[学生]</key>
+			<string>student</string>
+			<key>カナダ</key>
+			<string>Canada</string>
+			<key>かんこく　[韓国]</key>
+			<string>South Korea</string>
+			<key>けいえいがく　[経営学]</key>
+			<string>management / business administration</string>
+			<key>こうがく　[工学]</key>
+			<string>engineering</string>
+			<key>こうこう　[高校]</key>
+			<string>high school</string>
+			<key>ごご　[午後]</key>
+			<string>p.m., afternoon</string>
+			<key>ごぜん　[午前]</key>
+			<string>a.m., morning</string>
+			<key>こちら</key>
+			<string>this person, this way</string>
+			<key>さんねんせい　[三年生]</key>
+			<string>junior, third-year student (The suffix せい may be dropped.)</string>
+			<key>しゅっしん　[出身]</key>
+			<string>one&apos;s native country, hometown, birthplace, alma mater</string>
+			<key>スペイン</key>
+			<string>Spain</string>
+			<key>せんこう　[専攻]</key>
+			<string>major</string>
+			<key>だいがく　[大学]</key>
+			<string>college, university</string>
+			<key>だいがくいんせい　[大学院生]</key>
+			<string>graduate student</string>
+			<key>だいがくせい　[大学生]</key>
+			<string>college student</string>
+			<key>たいわん　[台湾]</key>
+			<string>Taiwan</string>
+			<key>ちゅうごく　[中国]</key>
+			<string>China</string>
+			<key>なまえ　[名前]</key>
+			<string>name</string>
+			<key>にねんせい　[二年生]</key>
+			<string>sophomore, second-year student (The suffix せい may be dropped.)</string>
+			<key>にほん　[日本]</key>
+			<string>Japan</string>
+			<key>ビジネス</key>
+			<string>business</string>
+			<key>フランス</key>
+			<string>France</string>
+			<key>ぶんがく　[文学]</key>
+			<string>literature</string>
+			<key>メキシコ</key>
+			<string>Mexico</string>
+			<key>よねんせい　[四年生]</key>
+			<string>senior, fourth-year student (The suffix せい may be dropped.)</string>
+			<key>らいねん　[来年]</key>
+			<string>next year</string>
+			<key>りゅうがくせい　[留学生]</key>
+			<string>foreign student</string>
+			<key>れきし　[歴史]</key>
+			<string>history</string>
+		</dict>
+		<key>Pronouns</key>
+		<dict>
+			<key>ぼく　　[僕]</key>
+			<string>I (normally used by males)</string>
+			<key>わたし　[私]</key>
+			<string>I (used by both males and females)</string>
+		</dict>
+		<key>Copula verb</key>
+		<dict>
+			<key>です</key>
+			<string>(to) be</string>
+		</dict>
+		<key>Time expressions</key>
+		<dict>
+			<key>いちじ　[一時]</key>
+			<string>one o&apos;clock</string>
+			<key>にじ　　[二時]</key>
+			<string>two o&apos;clock</string>
+			<key>さんじ　[三時]</key>
+			<string>three o&apos;clock</string>
+			<key>よじ　[四時]</key>
+			<string>four o&apos;clock</string>
+			<key>ごじ　[五時]</key>
+			<string>five o&apos;clock</string>
+			<key>ろくじ　[六時]</key>
+			<string>six o&apos;clock</string>
+			<key>しちじ　[七時]</key>
+			<string>seven o&apos;clock</string>
+			<key>はちじ　[八時]</key>
+			<string>eight o&apos;clock</string>
+			<key>くじ　[九時]</key>
+			<string>nine o&apos;clock</string>
+			<key>じゅうじ　[十時]</key>
+			<string>ten o&apos;clock</string>
+			<key>じゅういちじ　[十一時]</key>
+			<string>eleven o&apos;clock</string>
+			<key>じゅうにじ　[十二時]</key>
+			<string>twelve o&apos;clock</string>
+			<key>はん　　　　 [半]</key>
+			<string>half past (e.g. いちじはん 1:30)</string>
+		</dict>
+		<key>Question words</key>
+		<dict>
+			<key>どこ</key>
+			<string>where</string>
+			<key>どちら</key>
+			<string>where (more polite than どこ), which way</string>
+			<key>なに／なん　[何]</key>
+			<string>what</string>
+		</dict>
+		<key>Particles</key>
+		<dict>
+			<key>か</key>
+			<string>question marker</string>
+			<key>の</key>
+			<string>noun modifier marker (of), (&apos;s)</string>
+			<key>は</key>
+			<string>topic marker</string>
+			<key>も</key>
+			<string>similarity marker (also, too)</string>
+		</dict>
+		<key>Prefixes</key>
+		<dict>
+			<key>お〜　[御〜]</key>
+			<string>polite prefix (e.g. おなまえ polite form of なまえ (name)</string>
+		</dict>
+		<key>Suffixes</key>
+		<dict>
+			<key>〜ご　[〜語]</key>
+			<string>language (e.g. にほんご Japanese language)</string>
+			<key>〜じ　[〜時]</key>
+			<string>~ o&apos;clock</string>
+			<key>〜じん　[〜人]</key>
+			<string>-nationality (e.g. アメリカ人 American)</string>
+			<key>〜せい　[〜生]</key>
+			<string>-student (e.g. だいがくせい college student, いちねんせい freshman)</string>
+			<key>〜ねん　[〜年]</key>
+			<string>year (e.g. いちねん first year)</string>
+		</dict>
+		<key>Interjections</key>
+		<dict>
+			<key>あのう</key>
+			<string>uh, well ...</string>
+			<key>いいえ</key>
+			<string>no, don&apos;t mention it, you&apos;re welcome</string>
+			<key>はい／ええ</key>
+			<string>yes</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>いいえ、そうじゃありません／そうじゃないです</key>
+			<string>No, that&apos;s not so</string>
+			<key>はい／ええ、そうです</key>
+			<string>Yes, that&apos;s so</string>
+			<key>そうですか</key>
+			<string>Is that so? I see.</string>
+			<key>〜から　きました</key>
+			<string>came from ~ [casual]</string>
+			<key>こちらこそ</key>
+			<string>It is I who should be saying that. Thank you.</string>
+			<key>〜って　いいます</key>
+			<string>colloquail version of 〜と　いいます</string>
+		</dict>
+	</dict>
+	<key>C03: Daily Routines</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>あさ　[朝]</key>
+			<string>morning</string>
+			<key>あさごはん　[朝御飯]</key>
+			<string>breakfast</string>
+			<key>あさって　[明後日]</key>
+			<string>the day after tomorrow</string>
+			<key>あした　[明日]</key>
+			<string>tomorrow</string>
+			<key>うち　[家]</key>
+			<string>home</string>
+			<key>えいが　[映画]</key>
+			<string>movie</string>
+			<key>おととい　[一昨日]</key>
+			<string>the day before yesterday</string>
+			<key>おふろ　[お風呂]</key>
+			<string>bath</string>
+			<key>がっこう　[学校]</key>
+			<string>school</string>
+			<key>かようび　[火曜日]</key>
+			<string>Tuesday</string>
+			<key>きのう　[昨日]</key>
+			<string>yesterday</string>
+			<key>きょう　[今日]</key>
+			<string>today</string>
+			<key>きんようび　[金曜日]</key>
+			<string>Friday</string>
+			<key>クラス</key>
+			<string>class</string>
+			<key>げつようび　[月曜日]</key>
+			<string>Monday</string>
+			<key>コーヒー</key>
+			<string>coffee</string>
+			<key>ごはん　[御飯]</key>
+			<string>meal, cooked rice</string>
+			<key>こんしゅう　[今週]</key>
+			<string>this week</string>
+			<key>こんばん　[今晩]</key>
+			<string>tonight</string>
+			<key>シャワー</key>
+			<string>shower</string>
+			<key>しゅうまつ　[週末]</key>
+			<string>weekend</string>
+			<key>じゅぎょう　[授業]</key>
+			<string>class, course</string>
+			<key>しゅくだい　[宿題]</key>
+			<string>homework</string>
+			<key>すいようび　[水曜日]</key>
+			<string>Wednesday</string>
+			<key>せいかつ　[生活]</key>
+			<string>life, living</string>
+			<key>せんしゅう　[先週]</key>
+			<string>last week</string>
+			<key>つぎ　[次]</key>
+			<string>next</string>
+			<key>テレビ</key>
+			<string>television, TV</string>
+			<key>でんわばんご　[電話番号]</key>
+			<string>telephone number</string>
+			<key>としょかん　[図書館]</key>
+			<string>library</string>
+			<key>どようび　[土曜日]</key>
+			<string>Saturday</string>
+			<key>にちようび　[日曜日]</key>
+			<string>Sunday</string>
+			<key>ばん　[晩]</key>
+			<string>night, evening</string>
+			<key>ばんごはん　[晩御飯]</key>
+			<string>supper, dinner</string>
+			<key>ひる　[昼]</key>
+			<string>afternoon</string>
+			<key>ひるごはん　[昼御飯]</key>
+			<string>lunch</string>
+			<key>べんきょう　[勉強]</key>
+			<string>study</string>
+			<key>ほん　[本]</key>
+			<string>book</string>
+			<key>まいあさ　[毎朝]</key>
+			<string>every morning</string>
+			<key>まいしゅう　[毎週]</key>
+			<string>every week</string>
+			<key>まいにち　[毎日]</key>
+			<string>every day</string>
+			<key>まいばん　[毎晩]</key>
+			<string>every night</string>
+			<key>もくようび　[木曜日]</key>
+			<string>Thursday</string>
+		</dict>
+		<key>う-verbs</key>
+		<dict>
+			<key>あります</key>
+			<string>(to) be held, (to) have; the dictionary form is ある.</string>
+			<key>いきます　[行きます]</key>
+			<string>(to) go; the dictionary form is いく.</string>
+			<key>かえります　[帰ります]</key>
+			<string>(to) return; (to) go home; the dictionary form is かえる.</string>
+			<key>のみます　[飲みます]</key>
+			<string>(to) drink; the dictionary form is のむ.</string>
+			<key>はいります　[入ります]</key>
+			<string>(to) take (a bath), (to) enter; the dictionary form is はいる. おふろに　はいります take a bath</string>
+			<key>よみます　[読みます]</key>
+			<string>(to) read; the dictionary form is よむ.</string>
+		</dict>
+		<key>る-verbs</key>
+		<dict>
+			<key>あびます　[浴びます]</key>
+			<string>(to) take (a shower) シャワーを　あびます take a shower; the dictionary form is あびる.</string>
+			<key>おきます　[起きます]</key>
+			<string>(to) get up, (to) wake up; the dictionary form is おきる.</string>
+			<key>たべます　[食べます]</key>
+			<string>(to) eat; the dictionary form is たべる.</string>
+			<key>ねます　[寝ます]</key>
+			<string>(to) go to bed; the dictionary form is ねる.</string>
+			<key>みます　[見ます]</key>
+			<string>(to) see, (to) watch; the dictionary form is みる.</string>
+		</dict>
+		<key>Irregular verbs</key>
+		<dict>
+			<key>きます　[来ます]</key>
+			<string>(to) come; the dictionary form is くる.</string>
+			<key>します</key>
+			<string>(to) do; the dictionary form is する.</string>
+			<key>べんきょうします　[勉強します]</key>
+			<string>(to) study; the dictionary form is べんきょうする.</string>
+		</dict>
+		<key>Question word</key>
+		<dict>
+			<key>いつ</key>
+			<string>when</string>
+		</dict>
+		<key>Numbers</key>
+		<dict>
+			<key>ゼロ</key>
+			<string>zero</string>
+			<key>れい　[零]</key>
+			<string>zero</string>
+			<key>いち　　　[一]</key>
+			<string>one</string>
+			<key>に　[二]</key>
+			<string>two</string>
+			<key>さん　[三]</key>
+			<string>three</string>
+			<key>よん、し　[四]</key>
+			<string>four</string>
+			<key>ご　[五]</key>
+			<string>five</string>
+			<key>ろく　[六]</key>
+			<string>six</string>
+			<key>なな、しち　[七]</key>
+			<string>seven</string>
+			<key>はち　[八]</key>
+			<string>eight</string>
+			<key>きゅう、く　[く]</key>
+			<string>nine</string>
+			<key>じゅう　[十]</key>
+			<string>ten</string>
+		</dict>
+		<key>Counter</key>
+		<dict>
+			<key>〜ふん　[〜分]</key>
+			<string>~ minute(s), (for) ~ minute(s)</string>
+		</dict>
+		<key>Adverbs</key>
+		<dict>
+			<key>いつも</key>
+			<string>always</string>
+			<key>ぜんぜん　[全然]</key>
+			<string>not at all (used with negative verb forms)</string>
+			<key>たいてい</key>
+			<string>usually</string>
+			<key>ときどき　[時々]</key>
+			<string>sometimes</string>
+			<key>よく</key>
+			<string>often; well</string>
+		</dict>
+		<key>Particles</key>
+		<dict>
+			<key>に</key>
+			<string>1) at; on; in (point in time); e.g. 10じに　ねます; 2) to (goal, activity) クラスに　いきます</string>
+			<key>で</key>
+			<string>at; in; on; etc. (location of action or event); e.g. としょかんで　べんきょうします</string>
+			<key>へ</key>
+			<string>to (direction); e.g. がっこうへ　いきます</string>
+			<key>を</key>
+			<string>direct object marker, e.g. ほんを　よみます</string>
+		</dict>
+		<key>Prefixes</key>
+		<dict>
+			<key>こん〜　[今〜]</key>
+			<string>this こんしゅう、こんばん</string>
+			<key>まい〜　[毎〜]</key>
+			<string>every まいしゅう、まいあさ、まいばん、まいにち</string>
+		</dict>
+		<key>Suffixes</key>
+		<dict>
+			<key>〜ようび　[〜曜日]</key>
+			<string>day (of the week)</string>
+			<key>〜ごろ　[〜頃]</key>
+			<string>about ~ (used only with time expressions)</string>
+		</dict>
+	</dict>
+	<key>C04: Japanese Cities</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>アパート</key>
+			<string>apartment</string>
+			<key>えき　[駅]</key>
+			<string>station</string>
+			<key>えんぴつ　[鉛筆]</key>
+			<string>pencil</string>
+			<key>かばん　[鞄]</key>
+			<string>luggage, bag</string>
+			<key>カフェ</key>
+			<string>coffee shop, café (recent term)</string>
+			<key>きっさてん　[喫茶店]</key>
+			<string>coffee shop (traditional term)</string>
+			<key>きょうかしょ　[教科書]</key>
+			<string>textbook</string>
+			<key>ぎんこう　[銀行]</key>
+			<string>bank</string>
+			<key>けしゴム　[消しゴム]</key>
+			<string>eraser</string>
+			<key>こうえん　[公園]</key>
+			<string>park</string>
+			<key>こうばん　[交番]</key>
+			<string>police box</string>
+			<key>このへん　[この辺]</key>
+			<string>this area</string>
+			<key>コンビニ</key>
+			<string>convenience store</string>
+			<key>じしょ　[辞書]</key>
+			<string>dictionary</string>
+			<key>スーパー</key>
+			<string>supermarket</string>
+			<key>たてもの　[建物]</key>
+			<string>building, structure</string>
+			<key>テスト</key>
+			<string>test</string>
+			<key>デパート</key>
+			<string>department store</string>
+			<key>ノート</key>
+			<string>notebook</string>
+			<key>ビル</key>
+			<string>building</string>
+			<key>びょういん　[病院]</key>
+			<string>hospital</string>
+			<key>ペン</key>
+			<string>pen</string>
+			<key>ボールペン</key>
+			<string>ballpoint pen</string>
+			<key>ほんや　[本屋]</key>
+			<string>bookstore</string>
+			<key>まち　[町]</key>
+			<string>town</string>
+			<key>ゆうびんきょく　[郵便局]</key>
+			<string>post office</string>
+			<key>りょう　　　　　[寮]</key>
+			<string>dormitory</string>
+			<key>レストラン</key>
+			<string>restaurant</string>
+		</dict>
+		<key>る-verbs</key>
+		<dict>
+			<key>います</key>
+			<string>to be; to exist (used for animate beings).</string>
+		</dict>
+		<key>Demonstrative words</key>
+		<dict>
+			<key>ここ</key>
+			<string>here, this place</string>
+			<key>これ</key>
+			<string>this object, this</string>
+			<key>そこ</key>
+			<string>there, that place (close to the listener or slightly removed from both speaker and listener)</string>
+			<key>それ</key>
+			<string>that object, that (close to the lister or slightly removed from both speaker and listener)</string>
+			<key>あそこ</key>
+			<string>over there, that place (far away from both speaker and listener)</string>
+			<key>あれ</key>
+			<string>that, that object over there</string>
+		</dict>
+		<key>い-adjectives</key>
+		<dict>
+			<key>あおい　　　[青い]</key>
+			<string>blue</string>
+			<key>あかい　　　[赤い]</key>
+			<string>red</string>
+			<key>あたらしい　[新しい]</key>
+			<string>new</string>
+			<key>いい</key>
+			<string>good</string>
+			<key>おおきい　　[大きい]</key>
+			<string>big</string>
+			<key>きいろい　　[黄色い]</key>
+			<string>yellow</string>
+			<key>くろい　　　[黒い]</key>
+			<string>black</string>
+			<key>しろい　　　[白い]</key>
+			<string>white</string>
+			<key>たかい　　　[高い]</key>
+			<string>tall, high</string>
+			<key>ちいさい　　[小さい]</key>
+			<string>small</string>
+			<key>ちゃいろい　[茶色い]</key>
+			<string>brown</string>
+			<key>ふるい　　　[古い]</key>
+			<string>old</string>
+		</dict>
+		<key>な-adjectives</key>
+		<dict>
+			<key>きれい（な）</key>
+			<string>clean, pretty, neat</string>
+			<key>ゆうめい（な）　[有名（な）]</key>
+			<string>famous</string>
+			<key>りっぱ（な）　　[立派(な)]</key>
+			<string>fine, splendid, nice</string>
+		</dict>
+		<key>Question words</key>
+		<dict>
+			<key>だれ</key>
+			<string>who</string>
+			<key>どれ</key>
+			<string>which one</string>
+			<key>どんな</key>
+			<string>what kind of</string>
+		</dict>
+		<key>Adverbs</key>
+		<dict>
+			<key>あまり</key>
+			<string>very (always used with a negative form)</string>
+			<key>とても</key>
+			<string>very (always used with an affirmative form)</string>
+			<key>どうも</key>
+			<string>very, e.g. どうも　ありがとう Thank you very much, どうも　すみません I&apos;m very sorry</string>
+		</dict>
+		<key>Suffix</key>
+		<dict>
+			<key>〜や　[〜屋]</key>
+			<string>store (for example, ほんや bookstore)</string>
+		</dict>
+	</dict>
+	<key>C05: Japanese Homes</key>
+	<dict>
+		<key>Location nouns</key>
+		<dict>
+			<key>うえ　[上]</key>
+			<string>on, above, over</string>
+			<key>うしろ　[後ろ]</key>
+			<string>behind, in back of</string>
+			<key>した　[下]</key>
+			<string>under, beneath</string>
+			<key>そと　[外]</key>
+			<string>outside</string>
+			<key>ちかく　[近く]</key>
+			<string>near, in the vicinity of</string>
+			<key>となり　[隣]</key>
+			<string>next to</string>
+			<key>なか　　[中]</key>
+			<string>in, inside</string>
+			<key>ひだり　[左]</key>
+			<string>to the left, left side</string>
+			<key>まえ　　[前]</key>
+			<string>in front of, in the front</string>
+			<key>みぎ　　[右]</key>
+			<string>to the right</string>
+			<key>よこ　　[横]</key>
+			<string>next to, at the side of</string>
+		</dict>
+		<key>Nouns</key>
+		<dict>
+			<key>いす　　[椅子]</key>
+			<string>chair</string>
+			<key>いぬ　　[犬]</key>
+			<string>dog</string>
+			<key>え　　　[絵]</key>
+			<string>picture</string>
+			<key>おしいれ　[押し入れ]</key>
+			<string>Japanese-style closet, storage space</string>
+			<key>がくしょく　[学食]</key>
+			<string>school cafeteria (a shortened form of 学生しょくどう)</string>
+			<key>がくせいかいかん　[学生会館]</key>
+			<string>student union</string>
+			<key>かわ　　[川]</key>
+			<string>river</string>
+			<key>き　　　[木]</key>
+			<string>tree</string>
+			<key>きょうしつ　[教室]</key>
+			<string>classroom</string>
+			<key>くるま　[車]</key>
+			<string>car</string>
+			<key>こくばん　[黒板]</key>
+			<string>chalkboard</string>
+			<key>コンピュータ</key>
+			<string>computer</string>
+			<key>じてんしゃ　[自転車]</key>
+			<string>bicycle</string>
+			<key>さhしん　[写真]</key>
+			<string>photograph</string>
+			<key>ソファ</key>
+			<string>sofa</string>
+			<key>たいいくかん　[体育館]</key>
+			<string>gym</string>
+			<key>たんす　[箪笥]</key>
+			<string>chest, drawers</string>
+			<key>つくえ　[机]</key>
+			<string>desk</string>
+			<key>テーブル</key>
+			<string>table</string>
+			<key>でんわ　[電話]</key>
+			<string>telephone</string>
+			<key>ドア</key>
+			<string>door</string>
+			<key>トイレ</key>
+			<string>toilet, restroom</string>
+			<key>とけい　[時計]</key>
+			<string>clock, watch</string>
+			<key>ところ　[所]</key>
+			<string>place</string>
+			<key>ねこ　　[猫]</key>
+			<string>cat</string>
+			<key>バス</key>
+			<string>bus</string>
+			<key>ビデオ</key>
+			<string>video</string>
+			<key>ひと　　[人]</key>
+			<string>person</string>
+			<key>ふとん　[布団]</key>
+			<string>futon</string>
+			<key>ベッド</key>
+			<string>bed</string>
+			<key>へや　　[部屋]</key>
+			<string>room</string>
+			<key>ほんだな　[本棚]</key>
+			<string>bookshelf</string>
+			<key>まど　　[窓]</key>
+			<string>window</string>
+			<key>もの　　{物]</key>
+			<string>thing (tangible)</string>
+			<key>やま　　[山]</key>
+			<string>mountain</string>
+			<key>ラボ</key>
+			<string>laboratory</string>
+		</dict>
+		<key>う-verb</key>
+		<dict>
+			<key>かかります</key>
+			<string>to take (time), it costs; the dictionary form is かかる.</string>
+		</dict>
+		<key>Demonstrative words</key>
+		<dict>
+			<key>この</key>
+			<string>this [+ noun]</string>
+			<key>その</key>
+			<string>that [+ noun]</string>
+			<key>あの</key>
+			<string>that [+ noun] over there</string>
+			<key>どの</key>
+			<string>which [+ noun]?</string>
+		</dict>
+		<key>い-adjectives</key>
+		<dict>
+			<key>あかるい　[明るい]</key>
+			<string>bright</string>
+			<key>くらい　　[暗い]</key>
+			<string>dark</string>
+			<key>せまい　　[狭い]</key>
+			<string>cramped, narrow</string>
+			<key>はやい　　[速い]</key>
+			<string>fast, quick</string>
+			<key>ひろい　　[広い]</key>
+			<string>spacious, wide</string>
+		</dict>
+		<key>な-adjectives</key>
+		<dict>
+			<key>しずか（な）　[静か（な）]</key>
+			<string>quiet</string>
+		</dict>
+		<key>Particles</key>
+		<dict>
+			<key>から</key>
+			<string>from</string>
+			<key>で</key>
+			<string>by means of, by, with</string>
+			<key>まで</key>
+			<string>until, to</string>
+		</dict>
+		<key>Suffixes</key>
+		<dict>
+			<key>〜ぐらい／くらい</key>
+			<string>about ~ (duration or quantity)</string>
+			<key>〜じかん</key>
+			<string>~ hours</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>あがってください　[あがって下さい]</key>
+			<string>Please come in.</string>
+			<key>あるいて　[歩いて]</key>
+			<string>on foot</string>
+			<key>いらっしゃい</key>
+			<string>Welcome! Come in.</string>
+			<key>おじゃまします　[お邪魔します]</key>
+			<string>Thank you. (literally: I will intrude on you.) (said before going inside someone&apos;s house or apartment) </string>
+			<key>ごめんください　[御免下さい]</key>
+			<string>Excuse me, anyone home?</string>
+		</dict>
+		<key>Question word</key>
+		<dict>
+			<key>どのぐらい／どのくらい</key>
+			<string>how long, how much, how many</string>
+		</dict>
+	</dict>
+	<key>C06: Leisure Time</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>アルバイト</key>
+			<string>part-time job</string>
+			<key>うんどう　　[運動]</key>
+			<string>exercises うんどう（を）します to exercise (を is commonly deleted)</string>
+			<key>おんがく　　[音楽]</key>
+			<string>music</string>
+			<key>かいもの　　[買い物]</key>
+			<string>shopping</string>
+			<key>ゲーム</key>
+			<string>game</string>
+			<key>コンサート</key>
+			<string>concert</string>
+			<key>こんど　　　[今度]</key>
+			<string>next time</string>
+			<key>ざっし　　　[雑誌]</key>
+			<string>magazine</string>
+			<key>さんぽ　　　[散歩]</key>
+			<string>walk, stroll　さんぽ（を）します to take a walk</string>
+			<key>しごと　　　[仕事]</key>
+			<string>job</string>
+			<key>しつもん　　[質問]</key>
+			<string>question しつもん（を）します (to) ask a question</string>
+			<key>ジョギング</key>
+			<string>jogging</string>
+			<key>しんぶん　　[新聞]</key>
+			<string>newspaper</string>
+			<key>せんたく　　[洗濯]</key>
+			<string>laundry</string>
+			<key>そうじ　[掃除]</key>
+			<string>cleaning</string>
+			<key>てがみ　[手紙]</key>
+			<string>letter</string>
+			<key>テニス</key>
+			<string>tennis テニスを　します to play tennis</string>
+			<key>ともだち　[友達]</key>
+			<string>friend</string>
+			<key>パーティ</key>
+			<string>party</string>
+			<key>ピクニック</key>
+			<string>picnic</string>
+			<key>プール</key>
+			<string>pool</string>
+			<key>メール</key>
+			<string>mail</string>
+			<key>やすみ　[休み]</key>
+			<string>rest, absence, a day off</string>
+			<key>やすみのひ　[休みの日]</key>
+			<string>a day off, holiday</string>
+			<key>りょうしん　[両親]</key>
+			<string>parents</string>
+			<key>りょうり　[料理]</key>
+			<string>cooking, cuisine; e.g. りょうり（を）します to fix a meal</string>
+		</dict>
+		<key>う-verbs</key>
+		<dict>
+			<key>あいます　[会います]</key>
+			<string>(to) meet; the dictionary form is あう.</string>
+			<key>あそびます　[遊びます]</key>
+			<string>(to) play; the dictionary form is あそぶ.</string>
+			<key>あるきます　[歩きます]</key>
+			<string>(to) walk, 〜まで　あるきます (to) walk (up) towards; the dictionary form is あるく.</string>
+			<key>いいます　[言います]</key>
+			<string>(to) say; the dictionary form is いう.</string>
+			<key>およぎます　[泳ぎます]</key>
+			<string>(to) swim; the dictionary form is およぐ.</string>
+			<key>かきます　[書きます]</key>
+			<string>(to) write; the dictionary form is かく.</string>
+			<key>ききます　[聞きます／聴きます]</key>
+			<string>(to) ask (聞きます), (to) listen to (聴きます); the dictionary form is きく.</string>
+			<key>はなします　[話します]</key>
+			<string>(to) talk; the dictionary form is はなす.</string>
+			<key>まちます　[待ちます]</key>
+			<string>(to) wait; the dictionary form is まつ.</string>
+			<key>よびます　[呼びます]</key>
+			<string>(to) call (someone), (to) invite; the dictionary form is よぶ.</string>
+		</dict>
+		<key>る-verbs</key>
+		<dict>
+			<key>かけます</key>
+			<string>(to) make (a phone call); the dictionary form is かける. e.g. でんわを　かけます</string>
+			<key>でかけます　[出かけます]</key>
+			<string>(to) go out; the dictionary form is でかける.</string>
+		</dict>
+		<key>い-adjectives</key>
+		<dict>
+			<key>いそがしい　[忙しい]</key>
+			<string>busy</string>
+			<key>うれしい　[嬉しい]</key>
+			<string>happy</string>
+			<key>おもしろい　[面白い]</key>
+			<string>interesting</string>
+			<key>かなしい　[悲しい]</key>
+			<string>sad</string>
+			<key>さびしい　[寂しい]</key>
+			<string>lonely</string>
+			<key>たのしい　[楽しい]</key>
+			<string>fun</string>
+			<key>つまらない</key>
+			<string>boring</string>
+			<key>むずかしい　[難しい]</key>
+			<string>difficult</string>
+			<key>やさしい　[易しい、優しい]</key>
+			<string>easy (易しい), kind (優しい)</string>
+		</dict>
+		<key>な-adjectives</key>
+		<dict>
+			<key>げんき（な）　[元気（な）]</key>
+			<string>healthy, cheerful, lively (person)</string>
+			<key>ざんねん（な）　[残念（な）]</key>
+			<string>sorry, regrettable</string>
+			<key>だいじょうぶ（な）　[大丈夫（な）]</key>
+			<string>all right, no problem</string>
+			<key>たいへん（な）　[大変（な）]</key>
+			<string>tough</string>
+			<key>にぎやか（な）　[賑やか（な）]</key>
+			<string>lively (place or event)</string>
+			<key>ひま（な）　　[暇（な）]</key>
+			<string>free, idle, unscheduled</string>
+		</dict>
+		<key>Adverbs</key>
+		<dict>
+			<key>いっしょに　[一緒に]</key>
+			<string>together</string>
+			<key>ぜひ　　　　[是非]</key>
+			<string>By all means. / I&apos;d love to.</string>
+			<key>ゆっくり</key>
+			<string>slowly, ゆっくりします, to relax, to take it easy</string>
+		</dict>
+		<key>Particles</key>
+		<dict>
+			<key>と</key>
+			<string>1) with, together with (association); 2) and (exhaustive listing)</string>
+			<key>に</key>
+			<string>1) in order to, for (purpose); 2) to (goal, receiver)</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>ちょっと つごうが わるくて　　[ちょっと都合が悪くて]</key>
+			<string>I&apos;m a little busy. (literally: Sorry, it&apos;s a little inconvenient.)</string>
+			<key>ちょっと ようじが あって　　[ちょっと用事があって]</key>
+			<string>Sorry, I have some errands/business to attend to.</string>
+		</dict>
+	</dict>
+	<key>C07: Favorite Things and Activities</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>うた　[歌]</key>
+			<string>song</string>
+			<key>エアロビクス</key>
+			<string>aerobics</string>
+			<key>おちゃ　[お茶]</key>
+			<string>tea, green tea</string>
+			<key>オレンジ</key>
+			<string>orange</string>
+			<key>カラオケ</key>
+			<string>Karaoke, sing-along</string>
+			<key>くだもの　[果物]</key>
+			<string>fruit</string>
+			<key>クラシック</key>
+			<string>classical music</string>
+			<key>こうちゃ　[紅茶]</key>
+			<string>black tea</string>
+			<key>コーラ</key>
+			<string>cola</string>
+			<key>こと</key>
+			<string>thing (intangible)</string>
+			<key>ゴルフ</key>
+			<string>golf</string>
+			<key>さかな　[魚]</key>
+			<string>fish</string>
+			<key>ジャズ</key>
+			<string>jazz</string>
+			<key>ジュース</key>
+			<string>juice</string>
+			<key>しゅみ　[趣味]</key>
+			<string>hobby</string>
+			<key>しょくじ　[食事]</key>
+			<string>dining しょくじする dine</string>
+			<key>スキー</key>
+			<string>skiing</string>
+			<key>スポーツ</key>
+			<string>sports</string>
+			<key>たべもの　[食べ物]</key>
+			<string>food</string>
+			<key>たまご　[卵／玉子]</key>
+			<string>egg</string>
+			<key>つり　[釣り]</key>
+			<string>fishing</string>
+			<key>トマト</key>
+			<string>tomato</string>
+			<key>ドライブ</key>
+			<string>driving (for pleasure)</string>
+			<key>にく　[肉]</key>
+			<string>meat</string>
+			<key>にんじん</key>
+			<string>carrot</string>
+			<key>のみもの　[飲み物]</key>
+			<string>beverage, drink</string>
+			<key>ハイキング</key>
+			<string>hiking</string>
+			<key>バスケットボール</key>
+			<string>basketball (abbreviated as バスケット or バスケ)</string>
+			<key>バナナ</key>
+			<string>banana</string>
+			<key>ヒップホップ</key>
+			<string>hip-hop music</string>
+			<key>ビール</key>
+			<string>beer</string>
+			<key>フットボール</key>
+			<string>(American) football (アメフト)</string>
+			<key>ポップス</key>
+			<string>pop music</string>
+			<key>みず　[水]</key>
+			<string>water</string>
+			<key>ミルク</key>
+			<string>milk</string>
+			<key>やきゅう　[野球]</key>
+			<string>baseball</string>
+			<key>やさい　[野菜]</key>
+			<string>vegetable</string>
+			<key>ラップ</key>
+			<string>rap music</string>
+			<key>りょこう　[旅行]</key>
+			<string>traveling りょこうする to travel</string>
+			<key>りんご</key>
+			<string>apple</string>
+			<key>レタス</key>
+			<string>lettuce</string>
+			<key>ロック</key>
+			<string>rock and roll</string>
+			<key>ワイン</key>
+			<string>wine</string>
+		</dict>
+		<key>う-verbs</key>
+		<dict>
+			<key>うたう　[歌う]</key>
+			<string>to sing</string>
+			<key>おわる　[終わる]</key>
+			<string>(for something) to end えいがが　おわる the movie is over.</string>
+			<key>つくる　[作る]</key>
+			<string>to make</string>
+			<key>とる　　[撮る]</key>
+			<string>to take (a photograph) しゃしんを　とる</string>
+			<key>はじまる　[始まる]</key>
+			<string>(for something) to begin じゅぎょうが　はじまる the class begins</string>
+		</dict>
+		<key>い-adjectives</key>
+		<dict>
+			<key>おいしい</key>
+			<string>delicious, good, tasty</string>
+			<key>たかい　[高い]</key>
+			<string>expensive (Chapter 4: high, tall)</string>
+			<key>やすい　[安い]</key>
+			<string>inexpensive</string>
+		</dict>
+		<key>な-adjectives</key>
+		<dict>
+			<key>きらい（な）　[嫌い（な）]</key>
+			<string>dislike, hate</string>
+			<key>すき（な）　　[好き（な）]</key>
+			<string>like</string>
+		</dict>
+		<key>Question words</key>
+		<dict>
+			<key>どうして</key>
+			<string>why</string>
+		</dict>
+		<key>Adverbs</key>
+		<dict>
+			<key>もっと</key>
+			<string>more</string>
+		</dict>
+		<key>Particles</key>
+		<dict>
+			<key>や</key>
+			<string>and (when listing examples) おちゃや　コーヒー tea, coffee, and so on</string>
+		</dict>
+		<key>Prefixes</key>
+		<dict>
+			<key>だい　[大]</key>
+			<string>very much, 大すき like very much</string>
+		</dict>
+		<key>Conjunctions</key>
+		<dict>
+			<key>それから</key>
+			<string>and, in addition, then</string>
+			<key>たとえば　[例えば]</key>
+			<string>for example</string>
+			<key>でも</key>
+			<string>but</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>すきでもきらいでもありません　　[好きでも嫌いでもありません]</key>
+			<string>I neither like nor dislike it.</string>
+			<key>〜（は）どうですか</key>
+			<string>How about ~?</string>
+		</dict>
+	</dict>
+	<key>C08: Shopping</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>アクセサリー</key>
+			<string>accessories</string>
+			<key>アクセサリーうりば　[アクセサリー売り場]</key>
+			<string>accessory department</string>
+			<key>イヤリング</key>
+			<string>earring</string>
+			<key>うでどけい　[腕時計]</key>
+			<string>wristwatch</string>
+			<key>うりば　[売り場]</key>
+			<string>department, section (of a store)</string>
+			<key>CD/DVDうりば　[CD/DVD売り場]</key>
+			<string>CD/DVD section</string>
+			<key>かさ　[傘]</key>
+			<string>umbrella</string>
+			<key>くつ　[靴]</key>
+			<string>shoes</string>
+			<key>くつした　[靴下]</key>
+			<string>socks</string>
+			<key>コート</key>
+			<string>coat</string>
+			<key>ジーンズ</key>
+			<string>jeans</string>
+			<key>ジャケット</key>
+			<string>jacket</string>
+			<key>シャツ</key>
+			<string>shirt</string>
+			<key>しょくひん　[食品]</key>
+			<string>food</string>
+			<key>しょくひんうりば　[食品売り場]</key>
+			<string>food department</string>
+			<key>しんしふく　[紳士服]</key>
+			<string>menswear</string>
+			<key>しんしふくうりば　[紳士服売り場]</key>
+			<string>menswear department</string>
+			<key>スーツ</key>
+			<string>suit</string>
+			<key>スカート</key>
+			<string>skirt</string>
+			<key>ストッキング</key>
+			<string>stockings, pantyhose</string>
+			<key>ズボン</key>
+			<string>(primarily men&apos;s) trousers</string>
+			<key>セーター</key>
+			<string>sweater</string>
+			<key>セール</key>
+			<string>sale</string>
+			<key>たんじょうび　[誕生日]</key>
+			<string>birthday</string>
+			<key>ちか　[地下]</key>
+			<string>basement, e.g. ちかいっかい B1</string>
+			<key>Tシャツ</key>
+			<string>T-shirt</string>
+			<key>ドレス</key>
+			<string>dress</string>
+			<key>ネクタイ</key>
+			<string>tie</string>
+			<key>ネックレス</key>
+			<string>necklace</string>
+			<key>はこ　[箱]</key>
+			<string>box</string>
+			<key>パンツ</key>
+			<string>(primarily women&apos;s) trousers, shorts</string>
+			<key>ハンドバッグ</key>
+			<string>handbag</string>
+			<key>ふく　[服]</key>
+			<string>clothing</string>
+			<key>ふじんふく　[婦人服]</key>
+			<string>woman&apos;s clothing</string>
+			<key>ふじんふくうりば　[婦人服売り場]</key>
+			<string>women&apos;s clothing section</string>
+			<key>ブラウス</key>
+			<string>blouse</string>
+			<key>ぶんぼうぐ　[文房具]</key>
+			<string>stationery</string>
+			<key>ぶんぼうぐうりば　[文房具売り場]</key>
+			<string>stationery section</string>
+			<key>ベルト</key>
+			<string>belt</string>
+			<key>ぼうし　[帽子]</key>
+			<string>hat, cap</string>
+			<key>みせ　[店]</key>
+			<string>store, shop</string>
+			<key>ゆびわ　[指輪]</key>
+			<string>ring</string>
+		</dict>
+		<key>う-verbs</key>
+		<dict>
+			<key>かう　[買う]</key>
+			<string>to buy</string>
+			<key>とる　[取る]</key>
+			<string>to take (取る is a general equivalent for &quot;to take&quot;, but 撮る is used when one takes a picture, records a video, or makes a copy.)</string>
+		</dict>
+		<key>る-verbs</key>
+		<dict>
+			<key>いれる　[入れる]</key>
+			<string>to put, e.g. はこに　いれる to put in a box</string>
+			<key>みせる　[見せる]</key>
+			<string>to show</string>
+		</dict>
+		<key>Adverbs</key>
+		<dict>
+			<key>すこし　[少し]</key>
+			<string>a little, a few</string>
+			<key>たくさん</key>
+			<string>a lot, many, much</string>
+			<key>ちょっと</key>
+			<string>a little, a few (more casual than すこし)</string>
+			<key>もう</key>
+			<string>~ more, another ~</string>
+			<key>もう　すこし　[もう少し]</key>
+			<string>a little more</string>
+			<key>もう　ちょっと</key>
+			<string>a little more</string>
+		</dict>
+		<key>Counters</key>
+		<dict>
+			<key>〜えん　[〜円]</key>
+			<string>counter for Japanese currency</string>
+			<key>〜かい　[〜階]</key>
+			<string>counter for floors of a building</string>
+			<key>〜つ</key>
+			<string>general counter (Japanese origin number)</string>
+			<key>〜ひき　[〜匹]</key>
+			<string>counter for fish and small four-legged animals</string>
+			<key>〜ほん　[〜本]</key>
+			<string>counter for long, cylindrical objects (e.g., bottles, films, pens, pencil)</string>
+			<key>〜まい　[〜枚]</key>
+			<string>counter for thin objects (e.g., film, paper, plates, shirts)</string>
+			<key>〜さつ　[〜册]</key>
+			<string>counter for bound objects (e.g., books, magazines)</string>
+		</dict>
+		<key>Question words</key>
+		<dict>
+			<key>いかが　</key>
+			<string>how (polite form of どう）</string>
+			<key>いくつ</key>
+			<string>how many</string>
+			<key>いくら</key>
+			<string>how much (money)</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>いらっしゃいませ</key>
+			<string>Welcome</string>
+			<key>ぜんぶで　[全部で]</key>
+			<string>all together</string>
+			<key>〜は　ありませんか</key>
+			<string>Do you have ~? Do you carry ~? (literally: Isn&apos;t there ~?)</string>
+			<key>〜を　ください　[〜を下さい]</key>
+			<string>Please give me ~</string>
+			<key>やさしいことばでいってください　[やさしい言葉で言って下さい]</key>
+			<string>Please say it in easier words</string>
+		</dict>
+	</dict>
+	<key>C09: Restaurants and Invitations</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>アイスクリーム</key>
+			<string>ice cream</string>
+			<key>あぶら　[油 (oil) / 脂 (fat)]</key>
+			<string>oil, e.g. あぶらが　おおい fatty, oily</string>
+			<key>イタリア</key>
+			<string>Italy, e.g. イタリアりょうり Italian cuisine</string>
+			<key>うどん</key>
+			<string>Japanese wheat noodles</string>
+			<key>ランチ</key>
+			<string>lunch, lunch set; e.g. Aランチ lunch set A</string>
+			<key>カレーライス</key>
+			<string>Japanese curry and rice dish (abbreviation: カレー)</string>
+			<key>カロリー</key>
+			<string>calorie</string>
+			<key>クッキー</key>
+			<string>cookie</string>
+			<key>ケーキ</key>
+			<string>cake</string>
+			<key>（お）さしみ　[御刺身]</key>
+			<string>sashimi (fillet of fresh raw fish, usually preceded by お)</string>
+			<key>サラダ</key>
+			<string>salad</string>
+			<key>サンドイッチ</key>
+			<string>sandwich</string>
+			<key>スープ</key>
+			<string>soup</string>
+			<key>（お）すし　　[御寿司／鮨]</key>
+			<string>sushi (usually preceded by お)</string>
+			<key>ステーキ</key>
+			<string>steak</string>
+			<key>スパゲティ</key>
+			<string>spaghetti</string>
+			<key>セット</key>
+			<string>a Western-style fixed menu, e.g. ハンバーガーセット hamburger set</string>
+			<key>そば　[蕎麦]</key>
+			<string>Japanese buckwheat noodles</string>
+			<key>チーズ</key>
+			<string>cheese</string>
+			<key>チキン</key>
+			<string>chicken</string>
+			<key>チャーハン</key>
+			<string>Chinese-style fried rice</string>
+			<key>ちゅうかりょうり　[中華料理]</key>
+			<string>Chinese cuisine</string>
+			<key>ちゅうもん　[注文]</key>
+			<string>order, e.g. ちゅうもんする to order</string>
+			<key>チョコレート　</key>
+			<string>chocolate</string>
+			<key>ていしょく　[定食]</key>
+			<string>a Japanese or Asian-style dish set, e.g. さしみていしょく sashimi set</string>
+			<key>デザート</key>
+			<string>dessert</string>
+			<key>てんぷら　[天ぷら／天麩羅]</key>
+			<string>tempura (fish, shrimp, and vegetables battered and deep-fried)</string>
+			<key>トースト</key>
+			<string>toast</string>
+			<key>ハンバーガー</key>
+			<string>hamburger</string>
+			<key>パン</key>
+			<string>bread</string>
+			<key>ビーフ</key>
+			<string>beef</string>
+			<key>ピザ</key>
+			<string>pizza</string>
+			<key>フライドチキン</key>
+			<string>fried chicken</string>
+			<key>ポーク</key>
+			<string>pork</string>
+			<key>ようしょく　[洋食]</key>
+			<string>Western-style cuisine</string>
+			<key>ライス</key>
+			<string>rice (ライス is served on a plate, not in a bowl. ごはん is a generic term for cooked rice.)</string>
+			<key>ラーメン</key>
+			<string>ramen (Chinese-style noodles in broth)</string>
+			<key>わしょく　[和食]</key>
+			<string>Japanese cuisine (also 日本りょうり)</string>
+		</dict>
+		<key>う-verbs</key>
+		<dict>
+			<key>いる　[要る]</key>
+			<string>to need something (e.g. ソースがいる It needs sauce.)</string>
+		</dict>
+		<key>い-adjectives</key>
+		<dict>
+			<key>あたたかい　[温かい]</key>
+			<string>warm</string>
+			<key>あつい　[熱い]</key>
+			<string>hot</string>
+			<key>あまい　[甘い]</key>
+			<string>sweet</string>
+			<key>おおい　[多い]</key>
+			<string>a lot, much</string>
+			<key>かたい　[固い]</key>
+			<string>hard, tough</string>
+			<key>からい　[辛い]</key>
+			<string>spicy</string>
+			<key>しょっぱい</key>
+			<string>salty</string>
+			<key>すくない　[少ない]</key>
+			<string>little (in number), few</string>
+			<key>すっぱい　[酸っぱい]</key>
+			<string>sour</string>
+			<key>つめたい　[冷たい]</key>
+			<string>cold</string>
+			<key>にがい　[苦い]</key>
+			<string>bitter</string>
+			<key>ひくい　[低い]</key>
+			<string>low, e.g. カロリーがひくい low in calories</string>
+			<key>やわらかい　[柔らかい]</key>
+			<string>soft</string>
+		</dict>
+		<key>Prefixes</key>
+		<dict>
+			<key>ご〜　[御〜]</key>
+			<string>polite prefix, e.g. ごちゅうもん</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>〜に　します</key>
+			<string>to decide on ~</string>
+			<key>〜を　おねがいします　[〜をお願いします]</key>
+			<string>I would like to have ~</string>
+		</dict>
+	</dict>
+	<key>C10: My Family</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>あし　[足]</key>
+			<string>leg, foot</string>
+			<key>あたま　[頭]</key>
+			<string>head, あたまがいい smalt, intelligent</string>
+			<key>あに　[兄]</key>
+			<string>older brother (the speaker&apos;s)</string>
+			<key>あね　[姉]</key>
+			<string>older sister (the speaker&apos;s)</string>
+			<key>いもうと　[妹]</key>
+			<string>younger sister (the speaker&apos;s)</string>
+			<key>いもとうさん　[妹さん]</key>
+			<string>younger sister (someone else&apos;s)</string>
+			<key>おかあさん　[お母さん]</key>
+			<string>mother (someone else&apos;s)</string>
+			<key>おくさん　[奥さん]</key>
+			<string>wife (someone else&apos;s)</string>
+			<key>おこさん　[お子さん]</key>
+			<string>child (someone else&apos;s)</string>
+			<key>おじいさん　[お祖父さん]</key>
+			<string>grandfather (someone else&apos;s)</string>
+			<key>おとうさん　[お父さん]</key>
+			<string>father (someone else&apos;s)</string>
+			<key>おとうと　[弟]</key>
+			<string>younger brother (the speaker&apos;s)</string>
+			<key>おとうとさん　[弟さん]</key>
+			<string>younger brother (someone else&apos;s)</string>
+			<key>おとこ　[男]</key>
+			<string>male, 男の人 man</string>
+			<key>おにいさん　[お兄さん]</key>
+			<string>older brother (someone else&apos;s)</string>
+			<key>おねえさん　[お姉さん]</key>
+			<string>older sister (someone else&apos;s)</string>
+			<key>おばあさん　[お祖母さん]</key>
+			<string>grandmother (someone else&apos;s)</string>
+			<key>おんな　[女]</key>
+			<string>female, おんなのひと woman</string>
+			<key>かいしゃいん　[会社員]</key>
+			<string>businessperson</string>
+			<key>かお　[顔]</key>
+			<string>face</string>
+			<key>かぞく　[家族]</key>
+			<string>family, speaker&apos;s family</string>
+			<key>かみ　[髪]</key>
+			<string>hair</string>
+			<key>きょうだい　[兄弟]</key>
+			<string>sibling(s)</string>
+			<key>くち　[口]</key>
+			<string>mouth</string>
+			<key>けっこん　[結婚]</key>
+			<string>marriage, 〜とけっこんする to marry ~, けっこんしている to be married</string>
+			<key>こ　[子]</key>
+			<string>child, おとこのこ boy, おんなのこ girl</string>
+			<key>ごかぞく　[ご家族]</key>
+			<string>family (someone else&apos;s)</string>
+			<key>ごきょうだい　[ご兄弟]</key>
+			<string>siblings (someone else&apos;s)</string>
+			<key>ごしゅじん　[ご主人]</key>
+			<string>husband (someone else&apos;s)</string>
+			<key>こども　[子供]</key>
+			<string>child</string>
+			<key>しゅじん　[主人]</key>
+			<string>husband (the speaker&apos;s)</string>
+			<key>せ　[背]</key>
+			<string>back (part of the body), height (of a person)</string>
+			<key>そふ　[祖父]</key>
+			<string>grandfather (the speaker&apos;s)</string>
+			<key>そぼ　[祖母]</key>
+			<string>grandmother (the speaker&apos;s)</string>
+			<key>ちち　[父]</key>
+			<string>father (the speaker&apos;s)</string>
+			<key>つま　[妻]</key>
+			<string>wife (the speaker&apos;s)</string>
+			<key>て　[手]</key>
+			<string>hand</string>
+			<key>とし　[年]</key>
+			<string>age; としうえ elder, older; としした younger</string>
+			<key>はな　[鼻]</key>
+			<string>nose</string>
+			<key>はは　[母]</key>
+			<string>mother (the speaker&apos;s)</string>
+			<key>ひとりっこ　[一人っ子]</key>
+			<string>only child</string>
+			<key>ブロンド</key>
+			<string>blond</string>
+			<key>まんなか　[真ん中]</key>
+			<string>center, middle, middle child</string>
+			<key>みみ　[耳]</key>
+			<string>ear</string>
+			<key>め　[目]</key>
+			<string>eye</string>
+			<key>めがね　[眼鏡]</key>
+			<string>glasses</string>
+		</dict>
+		<key>う-verbs</key>
+		<dict>
+			<key>かぶる　</key>
+			<string>to put on (a hat or cap)</string>
+			<key>すむ　[住む]</key>
+			<string>to reside, 〜にすんでいる to live in ~</string>
+			<key>はく</key>
+			<string>to put on (skirt, pants, socks, shoes)</string>
+			<key>ふとる　[太る]</key>
+			<string>to gain weight, ふとっている to be fat</string>
+			<key>わかる　[分かる]</key>
+			<string>to understand, 〜がわかる</string>
+		</dict>
+		<key>る-verbs</key>
+		<dict>
+			<key>かける</key>
+			<string>to put on (glasses)</string>
+			<key>きる　[着る]</key>
+			<string>to put on (sweater, shirt, jacket)</string>
+			<key>つとめる　[勤める]</key>
+			<string>to become employed; 〜につとめている to be employed, work for</string>
+			<key>やせる</key>
+			<string>to lose weight, やせている to be thin</string>
+		</dict>
+		<key>Irregular verbs</key>
+		<dict>
+			<key>する</key>
+			<string>to put on (accessories)</string>
+		</dict>
+		<key>Auxiliary verbs</key>
+		<dict>
+			<key>〜といる</key>
+			<string>resultant state</string>
+		</dict>
+		<key>い-adjectives</key>
+		<dict>
+			<key>あかるい　[明るい]</key>
+			<string>cheerful (Chapter 4, bright)</string>
+			<key>かっこいい</key>
+			<string>good-looking, cool, neat</string>
+			<key>かわいい　[可愛い]</key>
+			<string>cute, adorable</string>
+			<key>しかくい　[四角い]</key>
+			<string>square</string>
+			<key>ながい　[長い]</key>
+			<string>long</string>
+			<key>ほそながい　[細長い]</key>
+			<string>long/elongated</string>
+			<key>まるい　[丸い]</key>
+			<string>round</string>
+			<key>みじかい　[短い]</key>
+			<string>short (length)</string>
+		</dict>
+		<key>な-adjectives</key>
+		<dict>
+			<key>じょうず（な）　[上手（な）]</key>
+			<string>good at, skiilful</string>
+			<key>しんせつ（な）　[親切（な）]</key>
+			<string>kind</string>
+		</dict>
+		<key>Question words</key>
+		<dict>
+			<key>いくつ</key>
+			<string>How old ~? おいくつ (polite form)</string>
+		</dict>
+		<key>Prefixes</key>
+		<dict>
+			<key>しょう〜　[小〜]</key>
+			<string>elementary, e.g. 小学生 elementary school student, 小学校 elementary school</string>
+			<key>ちゅう〜　[中〜]</key>
+			<string>middle, e.g. 中学生 middle school student, 中学校 middle school, junior high school</string>
+		</dict>
+		<key>Suffixes</key>
+		<dict>
+			<key>〜さい　[〜歳／才]</key>
+			<string>~ years old</string>
+			<key>〜人　　[〜人]</key>
+			<string>~ people</string>
+			<key>〜ばん（め）　[〜番（目）]</key>
+			<string>~th (ordinal suffix)</string>
+			<key>〜かた　[〜方]</key>
+			<string>person (polite form of 人), e.g. いいかた (nice person)</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>いいえ、そんなことはありません。</key>
+			<string>No, that&apos;s not the case.</string>
+			<key>いいえ、まだまだです。</key>
+			<string>No, I still have a long way to go.</string>
+		</dict>
+	</dict>
+	<key>C11: Seasons and Weather</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>あき　[秋]</key>
+			<string>fall, autumn</string>
+			<key>あめ　[雨]</key>
+			<string>rain</string>
+			<key>かぜ　[風]</key>
+			<string>wind</string>
+			<key>きおん　[気温]</key>
+			<string>air temperature</string>
+			<key>きこう　[気候]</key>
+			<string>climate</string>
+			<key>きせつ　[季節]</key>
+			<string>season</string>
+			<key>きた　[北]</key>
+			<string>north</string>
+			<key>きょねん　[去年]</key>
+			<string>last year</string>
+			<key>くも　[雲]</key>
+			<string>cloud</string>
+			<key>くもり　[曇り]</key>
+			<string>cloudy</string>
+			<key>けさ　[今朝]</key>
+			<string>this morning</string>
+			<key>ことし　[今年]</key>
+			<string>this year</string>
+			<key>さいきん　[最近]</key>
+			<string>recent, recently</string>
+			<key>たいふう　[台風]</key>
+			<string>typhoon</string>
+			<key>つゆ　[梅雨]</key>
+			<string>rainy season</string>
+			<key>てんき　[天気]</key>
+			<string>weather</string>
+			<key>てんきよほう　[天気予報]</key>
+			<string>weather forecast</string>
+			<key>なつ　[夏]</key>
+			<string>summer</string>
+			<key>なんせい　[南西]</key>
+			<string>southwest</string>
+			<key>にし　[西]</key>
+			<string>west</string>
+			<key>にわかあめ　[にわか雨]</key>
+			<string>shower (rain)</string>
+			<key>のち　[後]</key>
+			<string>after</string>
+			<key>はれ　[晴れ]</key>
+			<string>sunny weather</string>
+			<key>ひがし　[東]</key>
+			<string>east</string>
+			<key>ふゆ　[冬]</key>
+			<string>winter</string>
+			<key>ほう　[方]</key>
+			<string>direction</string>
+			<key>ほくせい　[北西]</key>
+			<string>northwest</string>
+			<key>ほくとう　[北東]</key>
+			<string>northeast</string>
+			<key>マイナス</key>
+			<string>minus</string>
+			<key>みなみ　[南]</key>
+			<string>south</string>
+			<key>ゆうがた　[夕方]</key>
+			<string>evening</string>
+			<key>ゆき　[雪]</key>
+			<string>snow</string>
+			<key>よる　[夜]</key>
+			<string>night</string>
+		</dict>
+		<key>う-verbs</key>
+		<dict>
+			<key>あがる　[上がる]</key>
+			<string>to rise, to go up</string>
+			<key>くもる　[曇る]</key>
+			<string>to become cloudy</string>
+			<key>さがる　[下がる]</key>
+			<string>to fall, to go down</string>
+			<key>しる　[知る]</key>
+			<string>to come to know; しっている to know, しらない don&apos;t know</string>
+			<key>つづく　[続く]</key>
+			<string>to continue</string>
+			<key>ふく　[吹く]</key>
+			<string>to blow</string>
+			<key>ふる　[降る]</key>
+			<string>to fall</string>
+		</dict>
+		<key>る-verbs</key>
+		<dict>
+			<key>はれる　[晴れる]</key>
+			<string>to become sunny</string>
+		</dict>
+		<key>い-adjectives</key>
+		<dict>
+			<key>あたたかい　[暖かい／温かい]</key>
+			<string>warm; 暖かい (air temperature), 温かい (other objects such as water, food, heart, etc)</string>
+			<key>あつい　[暑い／熱い]</key>
+			<string>hot; 暑い (air temperature), 熱い (other objects such as water, food, heart, etc.)</string>
+			<key>さむい　[寒い]</key>
+			<string>cold</string>
+			<key>すずしい　[涼しい]</key>
+			<string>cool</string>
+			<key>つよい　[強い]</key>
+			<string>strong</string>
+			<key>はやい　[早い]</key>
+			<string>early</string>
+			<key>よわい　[弱い]</key>
+			<string>weak</string>
+			<key>むしあつい　[蒸し暑い]</key>
+			<string>humid</string>
+			<key>わるい　[悪い]</key>
+			<string>bad</string>
+		</dict>
+		<key>な-adjectives</key>
+		<dict>
+			<key>きゅう（な）　[急（な）]</key>
+			<string>sudden, きゅうに suddenly</string>
+			<key>いや（な）　　[嫌（な）]</key>
+			<string>unpleasant, yuck</string>
+		</dict>
+		<key>Suffixes</key>
+		<dict>
+			<key>〜ど　[〜度]</key>
+			<string>degree, temperature</string>
+			<key>〜がつ　[〜月]</key>
+			<string>month</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>〜のち〜</key>
+			<string>after, e.g. あめのちはれ sunny after rain</string>
+			<key>ほんとう（に）／ほんと（に）　[本当（に）]</key>
+			<string>truly, really, indeed; ほんと（に）is more conversational than ほんとう（に）</string>
+		</dict>
+	</dict>
+	<key>C12: Annual Events</key>
+	<dict>
+		<key>Nouns</key>
+		<dict>
+			<key>うみ　[海]</key>
+			<string>ocean, sea</string>
+			<key>おととし　[一昨年]</key>
+			<string>the year before last</string>
+			<key>おもいで　[思い出]</key>
+			<string>memories</string>
+			<key>がいこく　[外国]</key>
+			<string>foreign counters</string>
+			<key>がっき　[学期]</key>
+			<string>semester, quarter, e.g. いちがっき one semester, はるがっき spring semester/quarter</string>
+			<key>かぶき　[歌舞伎]</key>
+			<string>kabuki (Japanese traditional performing art)</string>
+			<key>きもの　[着物]</key>
+			<string>traditional Japanese clothes, kimono</string>
+			<key>キャンプ</key>
+			<string>camping</string>
+			<key>きょうかい　[教会]</key>
+			<string>church</string>
+			<key>クリスマス</key>
+			<string>Christmast</string>
+			<key>けんか</key>
+			<string>fight, quarrel けんかをする to fight</string>
+			<key>こんげつ　[今月]</key>
+			<string>this month</string>
+			<key>しょうがつ　[正月]</key>
+			<string>the New Year (often used with the polite prefix お, おしょうがつ）</string>
+			<key>じんじゃ　[神社]</key>
+			<string>Shinto shrine</string>
+			<key>すいぞくかん　[水族館]</key>
+			<string>aquarium</string>
+			<key>せんげつ　[先月]</key>
+			<string>last month</string>
+			<key>ちゅうがく　[中学]</key>
+			<string>junior high school (shortened form of 中学校)</string>
+			<key>デート</key>
+			<string>dating, デートする go out on a date</string>
+			<key>てら　[寺]</key>
+			<string>Buddhist temple (often used as おてら)</string>
+			<key>どうぶつえん　[動物園]</key>
+			<string>zoo</string>
+			<key>とき　[時]</key>
+			<string>when, at the time of ~ (子供の時 when I was a child)</string>
+			<key>はくぶつかん　[博物館]</key>
+			<string>museum</string>
+			<key>バレンタインデー</key>
+			<string>St. Valentine&apos;s Day</string>
+			<key>ハロウィン</key>
+			<string>Halloween</string>
+			<key>はんとし　[半年]</key>
+			<string>a half year</string>
+			<key>ひこうき　[飛行機]</key>
+			<string>airplane</string>
+			<key>びじゅつかん　[美術館]</key>
+			<string>art museum</string>
+			<key>プレゼント</key>
+			<string>present, gift</string>
+			<key>まつり　[祭り]</key>
+			<string>festival (often used as おまつり)</string>
+			<key>ミュージカル</key>
+			<string>musical</string>
+			<key>やまのぼり　[山登り]</key>
+			<string>mountain climbing</string>
+			<key>ゆうえんち　[遊園地]</key>
+			<string>amusement park</string>
+			<key>らいげつ　[来月]</key>
+			<string>next month</string>
+		</dict>
+		<key>う-verbs</key>
+		<dict>
+			<key>なく　[泣く]</key>
+			<string>to cry</string>
+			<key>のる　[乗る]</key>
+			<string>to get on, to ride (ひこうきにのる get on a plane)</string>
+			<key>もらう</key>
+			<string>to receive, to get</string>
+		</dict>
+		<key>Irregular verbs</key>
+		<dict>
+			<key>しつれんする　[失恋する]</key>
+			<string>to be disappointed in love</string>
+		</dict>
+		<key>Adverbs</key>
+		<dict>
+			<key>はじめて　[初めて]</key>
+			<string>for the first time</string>
+		</dict>
+		<key>Particles</key>
+		<dict>
+			<key>なあ</key>
+			<string>A particle of exclamation to express desires or feelings without addressing anyone in particular. Used in casual speech.</string>
+		</dict>
+		<key>Suffixes</key>
+		<dict>
+			<key>〜かい　[〜回]</key>
+			<string>~ times</string>
+			<key>〜かげつ　[〜か月]</key>
+			<string>counter for months</string>
+			<key>〜ご　[〜後]</key>
+			<string>from ~, after ~ (e.g. 三年ご three years from now)</string>
+			<key>〜しゅうかん　[〜週間]</key>
+			<string>for ~ weeks</string>
+			<key>〜ど　[〜度]</key>
+			<string>~ times</string>
+			<key>〜にち　[〜日]</key>
+			<string>day</string>
+			<key>〜ねん　[〜年]</key>
+			<string>specific year (e.g. 1996年), counter for year (十年)</string>
+			<key>〜まえ　[〜前]</key>
+			<string>~ ago (e.g. 一年まえ one year ago)</string>
+		</dict>
+		<key>Expressions</key>
+		<dict>
+			<key>えーと</key>
+			<string>Well, let&apos;s see ...</string>
+			<key>あけましておめでとうございます。　[明けましておめでとうございます。]</key>
+			<string>Happy New Year</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
